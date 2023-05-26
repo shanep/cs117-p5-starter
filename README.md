@@ -12,6 +12,7 @@ methods of the ‘Computer’ class.
 - Creating derived classes (inheritance)
 - Using multiple files (declaration files [header files] and definition/implementation files [source files])
 - Overriding functions
+- Write Unit tests (classes)
 
 ## Task 1 - Write the program
 
@@ -46,6 +47,17 @@ Your code should:
 - Create the implementation of the SmartPhone class using the source file, SmartPhone.cpp.
 - The file header is required for the SmartPhone declaration and implementation file only.
 - Be as efficient as possible.
+
+## Task 2 - Unit testing
+
+In the textbook (chapter 7.10) you learned how to test a class to make sure that
+everything works correctly. Reference figure 7.10.1 for an example on how to
+test all the properties of the class that you just wrote.
+
+Write your unit tests in `main.cpp` to test all three classes and test all
+methods. You will want to test the accessors and mutators to ensure that your
+class is correct. The sample output below shows you what your test bench should
+look like when you are finished.
 
 ### Sample output
 
@@ -113,7 +125,7 @@ phone device:
         ID:     999     Ser #:  pppp    PwrSrc: battery #Cores: 128     MemSize:64      Carrier:Sprint  MemCard:empty
 ```
 
-## Task 2 - Generate Build Files
+## Task 3 - Generate Build Files
 
 There are two scripts in the root directory named `clean.sh` and `release.sh`.
 One creates a release build to compile your project and the other will delete
@@ -136,7 +148,7 @@ shane|(master *%=):solution$ ./release.sh
 -- Build files have been written to: ...
 ```
 
-## Task 3 - Compile your code
+## Task 4 - Compile your code
 
 After you have run `release.sh` you can `cd` into the build directory to compile
 and run the program.
@@ -154,7 +166,7 @@ not compile you will need to return to task 1 and fix your code and then return
 to this task to compile your code again. You only need to run the `release.sh`
 script once if you are recompiling you can skip Task 2 above.
 
-## Task 4 - Complete the Retrospective
+## Task 5 - Complete the Retrospective
 
 Once you have completed all the tasks open the file **Retrospective.md** and
 complete each section that has a TODO label.
@@ -174,7 +186,7 @@ For the **Sources used** section you must detail any sources you used outside of
 the textbook or course website. If you write NONE in this section it is assumed
 that you didn't use google at all. Be safe CITE!
 
-## Task 5 - Add, Commit, Push your code
+## Task 6 - Add, Commit, Push your code
 
 Once you are finished you need to make sure that you have pushed all your code
 to GitHub for grading! You will not be submitting anything to canvas everything
