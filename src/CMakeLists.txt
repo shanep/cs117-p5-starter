@@ -1,7 +1,7 @@
 if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/solution.cpp)
-  add_executable(myprogram solution.cpp main.cpp SmartPhone.cpp Electronic.cpp Computer.cpp)
+  add_executable(myprogram solution.cpp Robot.cpp)
 else()
-  add_executable(myprogram main.cpp SmartPhone.cpp Electronic.cpp Computer.cpp)
+  add_executable(myprogram main.cpp Robot.cpp)
 endif()
 
 ## Set compiler flags for the library
