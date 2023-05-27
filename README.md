@@ -48,8 +48,7 @@ will have 3 private data members as detailed below.
 - m_os - the os that the Robot runs
 - m_sensors - a vector of sensors that the robot has
 
-Each Robot can only have a maximum of 5 sensors. When a 6th sensor is added
-your code should print an error (but not crash).
+Each Robot can only have a maximum of 5 sensors.
 
 ## Task 3 - Reading in data
 
