@@ -129,11 +129,11 @@ Average number of sensors: 4
 2 Robots tired to load more than 5 sensors
 ```
 
-## Task 4 - Unit Testing
+## Task 3 - Testing
 
-Your instructor will provide you with unit testing scripts to help guide your
-development. These will be posted on canvas with instructions on how to add
-them to your project.
+Your instructor will provide you with testing scripts that were demonstrated in
+class to help guide your development. These will be posted in canvas along with
+instructions on how to use them in your project.
 
 ## Task 5 - Complete the Retrospective
 
