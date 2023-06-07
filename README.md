@@ -6,7 +6,7 @@ all methods on that file and then write code to use your custom class.
 
 ## Important Links
 
-- Review the [grading rubric](https://shanepanter.com/cs452/grading-rubric.html)
+- Review the [grading rubric](https://shanepanter.com/cs117/grading-rubric.html)
 
 ## Objectives
 
