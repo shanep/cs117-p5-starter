@@ -4,10 +4,6 @@ In this assignment, you will write your own class and then use that class to
 load in data from a text file. You are given the header file and must implement
 all methods on that file and then write code to use your custom class.
 
-## Important Links
-
-- Review the [grading rubric](https://shanepanter.com/cs117/grading-rubric.html)
-
 ## Objectives
 
 - Creating classes
